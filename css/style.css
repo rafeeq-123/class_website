@@ -27,6 +27,25 @@ background-color:#4CAF50;
 }
 
 body {
-    background-image: url("http://hdpic.org/wp-content/uploads/2015/02/Madrid-High-Definition-Background-Amazing-Free-Wallpaper.jpg");
-    background-size:cover
+    background-image: url("http://www.adolfogosalvez.com/one/images/portfolio/project-7/madrid06.jpg");
+    background-size:cover;
+    box-sizing: border-box;
 }
+
+ .imgHolder{
+    display:inline-block;
+    background:#000;
+}
+.item-fade{
+    vertical-align:top;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+img:hover{
+    opacity: 0.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
