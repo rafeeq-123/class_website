@@ -1,4 +1,39 @@
-function moneyCoverter(){
-  var eur =
-}
 
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Table</title>
+</head>
+<body>
+<script type="text/javascript">
+  var amountGivenUS = 1000
+      drinks = 300,
+      food = 450,
+      sovenirs = 50,
+      hotel = 200,
+      metro = 20,
+      conversion = 0.89,
+      total = hotel + sovenirs + drinks + food + metro;
+
+      document.writeln("<table style= 'width:fix; border: 1px solid black; white-space:nowrap;''><tr>");
+      document.writeln(" <h1>US Dollars</h1><th>Food:",food,"</th>");
+      document.writeln("<th>Sovenirs:",sovenirs,"</th>");
+      document.writeln("<th>Hotel:",hotel,"</th>");
+      document.writeln("<th>Metro:",metro,"</th>");
+      document.writeln("<th>Drinks:",drinks,"</th>");
+      document.writeln("<th>Total Spent Dollars:",total,"</th></table>");
+
+      document.writeln("<table style= 'width:fix; border: 1px solid black; white-space:nowrap;''><tr>");
+      document.writeln("<h1> Euros</h1><th>Food:",food*conversion,"</th>");
+      document.writeln("<th>Sovenirs:",sovenirs*conversion,"</th>");
+      document.writeln("<th>Hotel:",hotel*conversion,"</th>");
+      document.writeln("<th>Metro:",metro*conversion,"</th>");
+      document.writeln("<th>Drinks:",drinks*conversion,"</th>");
+      document.writeln("<th>Total Spent Euros:",total*conversion,"</th></table>");
+
+</script>
+
+
+</body>
+</html>
